@@ -9,6 +9,7 @@ key_down = keyboard_check(ord("S"));
 
 #endregion
 
+
 #region Movement
 
 // Horizontal
@@ -20,6 +21,22 @@ var ymove = key_down - key_up;
 vsp = spd*ymove;
 
 #endregion
+
+
+#region Collision
+
+if (place_meeting(x+hsp, y, O_Wall)) // Horizontal
+{
+	hsp = 0;
+}
+
+if (place_meeting(x, y+vsp, O_Wall)) // Vertical
+{
+	vsp = 0;
+}
+
+#endregion
+
 
 #region Movement & Animations
 
