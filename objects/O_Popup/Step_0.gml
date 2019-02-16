@@ -6,7 +6,8 @@ mouse_left = mouse_check_button_pressed(mb_left)
 
 #endregion
 
-#region Check if popup clicked
+
+#region Check popup click
 
 if mouse_left // Mouse clicked
 {
@@ -15,31 +16,52 @@ if mouse_left // Mouse clicked
 		show_debug_message("Popup Clicked On");
 		global.popupclicked = true;
 		
+		O_Overlay1.visible = false;	
+		O_Overlay2.visible = false;	
+		O_Overlay3.visible = false;	
+		
 		if (mouse_y > (bbox_bottom - (sprite_height/3))) // Mouse in bottom section
 		{
-			show_debug_message("3 Clicked");
 			clicked3 = true;
 		}
 		else if (mouse_y > (bbox_bottom - ((sprite_height/3)*2))) // Mouse in middle section
 		{
-			show_debug_message("2 Clicked");
 			clicked2 = true;
 		}
 		else if (mouse_y > bbox_top) // Mouse in top section
 		{
-			show_debug_message("1 Clicked");
 			clicked1 = true;
 		}
 	}
 	
 	else // Mouse outside box boundaries
 	{
-		show_debug_message("Popup Clicked Off");
 		global.popupclicked = false;
 	}
 }
 
+#endregion
 
+
+#region Show overlays
+
+if (clicked1 == true)
+{
+	O_Overlay1.visible = true;	
+	instance_destroy();
+}
+
+if (clicked2 == true)
+{
+		O_Overlay2.visible = true;
+		instance_destroy();
+}
+
+if (clicked3 == true)
+{
+		O_Overlay3.visible = true;
+		instance_destroy();
+}
 
 
 
