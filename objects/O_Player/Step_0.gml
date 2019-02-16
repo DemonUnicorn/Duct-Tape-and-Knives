@@ -25,12 +25,12 @@ vsp = spd*ymove;
 
 #region Collision
 
-if (place_meeting(x+hsp, y, O_Wall)) // Horizontal
+if (place_meeting(x, y, O_Wall)) // Horizontal
 {
 	hsp = 0;
 }
 
-if (place_meeting(x, y+vsp, O_Wall)) // Vertical
+if (place_meeting(x, y, O_Wall)) // Vertical
 {
 	vsp = 0;
 }
@@ -40,7 +40,11 @@ if (place_meeting(x, y+vsp, O_Wall)) // Vertical
 
 #region Movement & Animations
 
-x += hsp;
-y += vsp;
+// Reduce sprite to 64 bit
+image_xscale = ((image_xscale/sprite_width)*64)
+image_yscale = ((image_yscale/sprite_height)*64)
+
+x += hsp; // Move x axis
+y += vsp; // Move y axis
 
 #endregion
