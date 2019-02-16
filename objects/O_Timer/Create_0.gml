@@ -10,4 +10,3 @@ timer_center = ":"
 // Break chance variables
 total_seconds = 0; // To calculate chance
 chance = 1; // 1% chance to break at start
-
