@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "294892a5-882e-470c-87b7-5a2063e1da11",
+            "Value": {
+                "id": "93d89199-37f5-4d6b-b865-7492db656259",
+                "resourcePath": "sprites\\S_Placeholder_Energy\\S_Placeholder_Energy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2a2729f1-e706-4a84-993b-fad0f32a03a5",
             "Value": {
                 "id": "5b1926d6-9757-4ae5-9d3f-af6d954288f3",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "52021243-8963-4125-8b6a-5db7ed22c7bd",
+            "Value": {
+                "id": "8b09becb-5cae-44a1-a8cc-8cf20e15c92e",
+                "resourcePath": "objects\\O_GUI\\O_GUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "541259d5-130b-48d3-9a31-fef4789f8af3",
             "Value": {
                 "id": "cc832bae-cf76-48c8-833f-0e6742e32b44",
@@ -116,6 +132,14 @@
                 "id": "47c0bc3a-7492-484e-b68f-7cb841173da2",
                 "resourcePath": "rooms\\TestRoom\\TestRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "63d218b0-75a4-4cce-9779-ff9161bff983",
+            "Value": {
+                "id": "fa503a03-80c9-4a4b-ba6d-94e2e4d2436f",
+                "resourcePath": "objects\\O_Game\\O_Game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "d25bb43a-a844-43cc-8e27-0759f3bdf4cd",
+            "Value": {
+                "id": "c74d651c-db6c-4375-9458-5c025887503b",
+                "resourcePath": "fonts\\F_GUI\\F_GUI.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d32a1151-1a69-4cc4-b52b-2c1daf2f0616",
             "Value": {
                 "id": "48f8f56f-6c51-424b-bbdc-97af24cc04e7",
@@ -204,6 +236,14 @@
                 "id": "30bfe2c8-a27e-4afa-a5df-ea2553b44609",
                 "resourcePath": "views\\dbb6fc43-798f-46e4-a78f-930a7e137e3e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7e58b35-ecc1-4129-a968-dbd4c7c959e5",
+            "Value": {
+                "id": "b77a168e-659c-423d-a79a-2103ef2aeba0",
+                "resourcePath": "sprites\\S_Placeholder_Dummy\\S_Placeholder_Dummy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
