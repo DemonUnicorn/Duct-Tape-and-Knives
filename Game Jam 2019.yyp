@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "aad2b299-771a-494c-8ab0-d9587a3e7b63",
+            "Value": {
+                "id": "a102c015-672c-43ba-93fc-d31168fecdff",
+                "resourcePath": "objects\\O_Popup\\O_Popup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c1ceb1cb-abb5-4e20-a64e-29a1e9512897",
             "Value": {
                 "id": "7eac3381-41f2-4bb1-a03c-cfaffcd2eae6",
@@ -196,6 +204,14 @@
                 "id": "ed8ebebc-c499-4880-a2eb-84872c17fe9a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd416359-0472-409c-a1a5-5ef3a4a36f55",
+            "Value": {
+                "id": "c89ee0b5-3c48-4bb2-a513-96621e514f9a",
+                "resourcePath": "objects\\O_Clickable_Box\\O_Clickable_Box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "d45feb53-a97e-4c5d-b063-9b6c5d94eb8a",
+            "Value": {
+                "id": "345243eb-12bc-41e1-9429-83d2ad8d7455",
+                "resourcePath": "tilesets\\greytiles\\greytiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "db491693-bfea-41a1-8d6c-d5ddc4b5cab8",
             "Value": {
                 "id": "22f1a94f-877b-4d6f-8417-ec15c617ff1f",
@@ -244,6 +268,22 @@
                 "id": "b77a168e-659c-423d-a79a-2103ef2aeba0",
                 "resourcePath": "sprites\\S_Placeholder_Dummy\\S_Placeholder_Dummy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9eaf593-80eb-4d18-adbd-1e71c20ec5a9",
+            "Value": {
+                "id": "3741713f-2e18-44e0-b75a-b294d6811fe8",
+                "resourcePath": "objects\\O_Timer\\O_Timer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eede7ed1-c017-40a9-812e-2bab2f1fb0ea",
+            "Value": {
+                "id": "c33f9861-943e-475b-b20f-5017f73249c4",
+                "resourcePath": "fonts\\F_Timer\\F_Timer.yy",
+                "resourceType": "GMFont"
             }
         },
         {
