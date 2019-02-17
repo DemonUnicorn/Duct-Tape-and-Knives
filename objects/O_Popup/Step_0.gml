@@ -16,9 +16,9 @@ if mouse_left // Mouse clicked
 		show_debug_message("Popup Clicked On");
 		global.popupclicked = true;
 		
-		O_Overlay1.visible = false;	
-		O_Overlay2.visible = false;	
-		O_Overlay3.visible = false;	
+		O_Overlay1.visible = true;	
+		O_Overlay2.visible = true;	
+		O_Overlay3.visible = true;	
 		
 		if (mouse_y > (bbox_bottom - (sprite_height/3))) // Mouse in bottom section
 		{
@@ -47,18 +47,21 @@ if mouse_left // Mouse clicked
 
 if (clicked1 == true)
 {
-	O_Overlay1.visible = true;	
+	O_OverlayParent.visible = false;
+	O_Overlay1.visible = true;
 	instance_destroy();
 }
 
 if (clicked2 == true)
 {
+		O_OverlayParent.visible = false;
 		O_Overlay2.visible = true;
 		instance_destroy();
 }
 
 if (clicked3 == true)
 {
+		O_OverlayParent.visible = false;
 		O_Overlay3.visible = true;
 		instance_destroy();
 }
