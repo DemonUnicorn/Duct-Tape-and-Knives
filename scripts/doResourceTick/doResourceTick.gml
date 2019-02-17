@@ -1,15 +1,9 @@
 //doResourceTick()
 //Calculate resource_rates and add to resource
 
-/*global.energy += global.energy_rate;
-for (var i = 0; i < global.bot_count; i++){
-	with (global.bot_arr[i]){
-		if (broken != 0) global.energy -= 3;
-	}
-}
-global.ore += global.ore_rate;*/
+energytotal = (O_Gen_Overlay1.botcount + O_Gen_Overlay2.botcount + O_Gen_Overlay3.botcount + O_Gen_Overlay4.botcount + O_Gen_Overlay5.botcount)
+minetotal = (O_Mine_Overlay1.botcount + O_Mine_Overlay2.botcount + O_Mine_Overlay3.botcount + O_Mine_Overlay4.botcount)
 
-
-global.energy += 3*O_Overlay1.botcount;
-global.energy -= (O_Overlay2.botcount+O_Overlay3.botcount);
-global.ore += 2*O_Overlay2.botcount;
+global.energy += 3*energytotal;
+global.energy -= (energytotal + minetotal + O_Bridge_Overlay.botcount);
+global.ore += 2*minetotal;

@@ -1,5 +1,5 @@
 {
-    "id": "f584e843-4ded-4f13-a8e5-7ef627e3948d",
+    "id": "5716c726-254c-444e-8248-b9f9b16f056a",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "doResourceTick",
