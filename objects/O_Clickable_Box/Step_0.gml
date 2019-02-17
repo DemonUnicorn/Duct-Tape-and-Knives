@@ -14,13 +14,11 @@ if mouse_left // Clicked
 {
 	if (position_meeting(mouse_x, mouse_y, self)) // Mouse inside box boundaries
 	{
-		show_debug_message("Box Clicked On");
 		global.boxclicked = true;
 	}
 	
 	else // Mouse outside box boundaries
 	{
-		show_debug_message("Box Clicked Off");
 		global.boxclicked = false;
 	}
 }
@@ -29,7 +27,10 @@ if mouse_left // Clicked
 if ((global.boxclicked == true) and (instance_position(x+100 ,y-100 ,O_Popup) == noone))// If box clicked
 {
 	instance_create_layer(x+100, y-100, "Instances", O_Popup); // Spawn popup window
-	show_debug_message("Popup Created")
+
+	O_Overlay1.visible = true;	
+	O_Overlay2.visible = true;	
+	O_Overlay3.visible = true;	
 }
 
 if (global.boxclicked == false and (instance_position(x+100 ,y-100 ,O_Popup) != noone) and global.popupclicked == false) // If box is clicked away from
