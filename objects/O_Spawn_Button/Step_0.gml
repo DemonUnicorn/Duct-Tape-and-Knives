@@ -2,16 +2,16 @@
 
 #region Inputs
 
-mouse_left = mouse_check_button_pressed(mb_left)
+key_space = keyboard_check_pressed(vk_space);
 
 #endregion
 
 
-#region Check if box clicked, spawn popup
+#region Check if space pressed and there is no bot already
 
-if mouse_left // Clicked
+if key_space
 {
-	if (position_meeting(mouse_x, mouse_y, self)) // Mouse inside box boundaries
+	if not instance_exists(O_Clickable_Box)
 	{
 		instance_create_layer(1200, 600, "Instances", O_Clickable_Box);
 	}
